@@ -1,6 +1,6 @@
 package streamfilter;
 
-public class PrintDuplicateStrings {
+public class PrintDuplicateStringsArray {
 
 	public static void main(String[] args) {
 		String[] my_array = { "bcd", "abd", "jude", "bcd", "oiu", "gzw", "oiu" };
