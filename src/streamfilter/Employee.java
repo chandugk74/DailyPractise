@@ -1,47 +1,53 @@
 package streamfilter;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class Employee {
-	private Integer employeeId;
-	private String employeeName;
-	private Integer employeeAge;
-
-	public Employee() {
-
+	String name;
+	int salary;
+	public String getName() {
+		return name;
 	}
-
-	public Employee(Integer employeeId, String employeeName, Integer employeeAge) {
-		this.employeeId = employeeId;
-		this.employeeName = employeeName;
-		this.employeeAge = employeeAge;
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	public Integer getEmployeeId() {
-		return employeeId;
+	public int getSalary() {
+		return salary;
 	}
-
-	public void setEmployeeId(Integer employeeId) {
-		this.employeeId = employeeId;
+	public void setSalary(int salary) {
+		this.salary = salary;
 	}
-
-	public String getEmployeeName() {
-		return employeeName;
+	public Employee(String n, int s) {
+		this.name = n;
+		this.salary = s;
 	}
-
-	public void setEmployeeName(String employeeName) {
-		this.employeeName = employeeName;
-	}
-
-	public Integer getEmployeeAge() {
-		return employeeAge;
-	}
-
-	public void setEmployeeAge(Integer employeeAge) {
-		this.employeeAge = employeeAge;
-	}
-
 	@Override
 	public String toString() {
-		return "Employee{" + "employeeId=" + employeeId + ", employeeName='" + employeeName + '\'' + ", employeeAge="
-				+ employeeAge + '}';
+		return "[" + name + ", " + salary + "]";
 	}
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<Employee>();
+				list.add(new Employee("Amit", 50000));
+				list.add(new Employee("Bhanu", 75000));
+				list.add(new Employee("Chandru", 80000));
+	
+		List<Employee> listSorted = new ArrayList<Employee>();
+//sorting on Aescending order by name
+		Comparator<Employee> NameCommparator = Comparator.comparing(Employee::getName);
+		listSorted = list.stream().sorted(NameCommparator).collect(Collectors.toList());
+//		listSorted = list.stream().sorted(NameCommparator.reversed()).collect(Collectors.toList());
+		System.out.println("Aescending order by name:" + listSorted);
+
+//sorting on Aescending order by salary
+		Comparator<Employee> SalaryCommparator = Comparator.comparing(Employee::getSalary);
+		listSorted = list.stream().sorted(SalaryCommparator).collect(Collectors.toList());
+//		listSorted = list.stream().sorted(SalaryCommparator.reversed()).collect(Collectors.toList());
+		System.out.println("Aescending order by salary:" + listSorted);
+
+	}
+	
 }

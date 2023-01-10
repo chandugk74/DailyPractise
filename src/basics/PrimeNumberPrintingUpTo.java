@@ -16,7 +16,7 @@ public class PrimeNumberPrintingUpTo {
 				System.out.print(i +" ");
 			}
 		}
-		System.out.println("The total number of prime numbers are :" + total);
+		System.out.println( total);
 	}
 	
 

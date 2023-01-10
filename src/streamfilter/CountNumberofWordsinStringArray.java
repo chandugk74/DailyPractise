@@ -7,13 +7,12 @@ import java.util.stream.Collectors;
 
 import com.sun.org.apache.xpath.internal.functions.Function;
 
-public class CountNumberofWordsinString {
+public class CountNumberofWordsinStringArray {
 
 	public static void main(String[] args) {
-		String[] array = { "name1", "name2", "name3", "name3", "name3", "name2" };
+		String[] array = { "n1", "n2", "n3", "n3", "n3", "n2" };
 		Arrays.stream(array).collect(Collectors.groupingBy(s -> s))
 				.forEach((k, v) -> System.out.println(k + " " + v.size()));
-		
 	}
 
 }

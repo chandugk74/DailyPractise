@@ -1,46 +1,18 @@
-//@RestController
-//@RequestMapping("/users")
-//public class UserController {
-//	@Autowired
-//	UserService userService;
-//
-//	@GetMapping("")
-//	public List<User> list() {
-//		return userService.listAllUser();
-//	}
-//================================================================
-//	@Service
-//	@Transactional
-//	public class UserService {
-//		@Autowired
-//		private UserRepository userRepository;
-//
-//		public List<User> listAllUser() {
-//			return userRepository.findAll();
-//		}
-//	==========================================================	
-//		public interface UserRepository extends JpaRepository<User, Integer{
-//		}
-//===========================================
-//		@Entity
-//        @Table(name = "users")
-//        public class User {
-//            private int id;
-//            private String firstName;
-//            private String lastName;
-//
-//            public User() {
-//            }
-//
-//            public User(int id, String firstName, String lastName) {
-//                this.id = id;
-//                this.firstName = firstName;
-//                this.lastName = lastName;
-//            }
-//            @Id
-//            @GeneratedValue(strategy = GenerationType.IDENTITY)
-//            public int getId() {
-//                return id;
-//            }
-//        //other setters and getters
-//        }
+package ArrayEx;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class Dummy {
+	public static void main(String[] args) {
+		// ArrayList with duplicate elements
+		List<Integer> numList = Arrays.asList(1, 2, 2, 3, 3, 3);
+		Map<Integer, Long> countInt = numList.stream().collect(Collectors
+				.toMap(Function.identity(), v ->1L, Long::sum));
+		System.out.println(countInt);
+
+	}
+}

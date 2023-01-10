@@ -4,12 +4,16 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class PrintDuplicateNumbers {
 
 	public static void main(String[] args) {
-		List<Integer> ll = Arrays.asList(1,1,5,6,6,9,9,12,10,10);
-		Set<Integer> ss = new HashSet<>();
-		ll.stream().filter(n->!ss.add(n)).forEach(System.out::println);
+	List<Integer> list = Arrays.asList(1,1,2,3,3,4,5,5,6);
+	Set<Integer> newSet = new HashSet<>();
+//	list.stream().filter(n->!newSet.add(n)).forEach(System.out::println);
+	System.out.println(list.stream().filter(n->!newSet.add(n)).collect(Collectors.toSet()));
+
 	}
+
 }
