@@ -1,29 +1,18 @@
 package collectionsEx;
 
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class ArrayListEx {
 
 	public static void main(String[] args) {
-		// Declaring the ArrayList with initial size n
-		ArrayList<Integer> al = new ArrayList<Integer>();
-
-		// Appending new elements at the end of the list
-		for (int i = 1; i <= 6; i++)
-			al.add(i);
-
-		// Printing elements
-		System.out.println(al);
-
-		// Remove element at index 3
-		al.remove(3);
-
-		// Displaying the ArrayList after deletion
-		System.out.println(al);
-
-		// Printing elements one by one
-		for (int i = 0; i < al.size(); i++)
-			System.out.print(al.get(i) + " ");
+		 String string1 = "aabacdceefeg";
+		    Map<Character,Long> countMap = string1.chars().mapToObj(i -> (char)i).collect(
+		            Collectors.groupingBy(Function.identity(), Collectors.counting())
+		        );
+		    System.out.println(countMap);
 	}
 
 }
