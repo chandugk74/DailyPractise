@@ -1,12 +1,18 @@
 package ArrayEx;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class ArrayEx1 {
 	public static void main(String[] args) {
-	String str = "ab";
-	for (int i =0;i<str.length();i++) {
-		for(int j=i+1;j<=str.length();j++)
-			System.out.println(str.substring(i,j));
-	}
-	
+		String str = "abcdab";
+		char[] chstr = str.toCharArray();
+		Set dupChar = new HashSet<>();
+		Set sameChar =new HashSet<>();
+		for(char ch :chstr) {
+			if(sameChar.add(ch)==false)
+				dupChar.add(ch);
+		}
+		dupChar.forEach(ch->System.out.print(ch+ " "));
 	}
 }
