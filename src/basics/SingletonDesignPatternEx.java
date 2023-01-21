@@ -21,9 +21,5 @@ public class SingletonDesignPatternEx {
 	public static void main(String[] args) {
 		SingletonDesignPatternEx obj1 = SingletonDesignPatternEx.getInstance();
 		System.out.println(obj1);
-//		SingletonDesignPatternEx obj2 = SingletonDesignPatternEx.getInstance();
-//		System.out.println(obj2);
-//		SingletonDesignPatternEx obj3 = SingletonDesignPatternEx.getInstance();
-//		System.out.println(obj3);
 	}
 }
