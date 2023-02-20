@@ -1,4 +1,4 @@
-package simplebasics;
+package basics;
 
 public class ArmstrongNumberCheck {
 
@@ -9,13 +9,14 @@ public class ArmstrongNumberCheck {
 		int temp = n;
 		while(n>0) {
 			remainder = n%10;
-			n =n/10;
 			sum = sum +(remainder*remainder*remainder);
+			n =n/10;
+
 		}
 		if(sum==temp) {
-			System.out.println("is Armstrong");
+			System.out.println(temp + " is Armstrong");
 		}else {
-			System.out.println("not armstrong");
+			System.out.println(temp + " not armstrong");
 		}
 	}
 

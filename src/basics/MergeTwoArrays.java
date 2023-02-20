@@ -7,23 +7,23 @@ import java.util.stream.Collectors;
 
 public class MergeTwoArrays {
 	public static void main(String[] args) {
-		int[] arr1 = new int[] { 50, 22, 15, 40, 65, 75 };
-		int[] arr2 = new int[] { 60, 45, 10, 20, 35, 56 };
+		int[] arr1 = { 50, 22, 15, 40, 65, 75 };
+		int[] arr2 = { 60, 45, 10, 20, 35, 56 };
 		int count1 = arr1.length;
 		int count2 = arr2.length;
-		int[] resArr = new int[count1 + count2];
+		int[] arr3 = new int[count1 + count2];
 		int i = 0, j = 0, k = 0;
-		while (i < arr1.length) {
-			resArr[k] = arr1[i];
+		while (i < count1) {
+			arr3[k] = arr1[i];
 			i++;
 			k++;
 		}
-		while (j < arr2.length) {
-			resArr[k] = arr2[j];
+		while (j < count2) {
+			arr3[k] = arr2[j];
 			j++;
 			k++;
 		}
-		Arrays.sort(resArr);
-		System.out.println(Arrays.toString(resArr));
+		Arrays.sort(arr3);
+		System.out.println(Arrays.toString(arr3));
 	}
 }

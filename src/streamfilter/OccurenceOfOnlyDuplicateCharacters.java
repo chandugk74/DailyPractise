@@ -12,12 +12,12 @@ public class OccurenceOfOnlyDuplicateCharacters {
 
 		for (char ch : chInput) {
 			if (distinctChars.add(ch) == false)
-				// if character is duplicated, then insert it into duplicated set
+// if character is duplicated, then insert it into duplicated set
 				setDuplicated.add(ch);
 		}
 		// print duplicated characters
 		System.out.print("Duplicate characters are: ");
-		setDuplicated.forEach(ch -> System.out.print(ch + " "));
+		setDuplicated.forEach(ch -> System.out.print(ch + ","));
 
 	}
 }

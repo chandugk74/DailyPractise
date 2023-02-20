@@ -4,12 +4,12 @@ public class PrimeEx {
 
 	public static void main(String[] args) {
 
-		int num = 3;
+		int num = 10;
 		int count = 0;
 
 		if (num > 1) {
-			for (int i = 2; i <= num; i++) {
-				if (num % 2 == 0)
+			for (int i = 1; i <= num; i++) {
+				if (num % i == 0)
 					count++;
 			}
 			if (count == 2) {

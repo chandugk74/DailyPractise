@@ -20,6 +20,6 @@ public class SortandReverseSortArray {
 		strArray = Stream.of(strArray).sorted(Comparator.reverseOrder()).toArray(String[]::new);
 
 		// Reverse Sorted array
-		System.out.println("Sorted : " + Arrays.toString(strArray));
+		System.out.println("Reverse Sorted : " + Arrays.toString(strArray));
 	}
 }

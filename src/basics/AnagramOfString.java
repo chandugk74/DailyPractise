@@ -12,7 +12,7 @@ public class AnagramOfString {
 	    if (s1.length() != s2.length()) {
 	        return false;
 	    }
-//	    conver the above string to char array
+//	    convert the above string to char array
 		char[] a1 = s1.toCharArray();
 		char[] a2 = s2.toCharArray();
 		

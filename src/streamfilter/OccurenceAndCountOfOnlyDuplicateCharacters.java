@@ -15,8 +15,8 @@ public class OccurenceAndCountOfOnlyDuplicateCharacters {
 			// increase the count of characters by 1
 		}
 
-		for (Map.Entry<Character, Integer> mapElement : count.entrySet()) { // iterating through the unordered map
-			if (mapElement.getValue() > 1) // if the count of characters is greater than 1 then duplicate found
+		for (Map.Entry<Character, Integer> mapElement : count.entrySet()) { 						// iterating through the unordered map
+			if (mapElement.getValue() > 1) 															// if the count of characters is greater than 1 then duplicate found
 				System.out.println(mapElement.getKey() + ", count = " + mapElement.getValue());
 		}
 	}
