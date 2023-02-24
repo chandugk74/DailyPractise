@@ -48,10 +48,6 @@ public class Employeee {
 				                 .reversed()).skip(1).findFirst();
 		System.out.println(emp.get());
 
-//		emplist.stream().sorted(Comparator.comparing(Employee::getSalary).thenComparing(Employee::getName))
-//	    .forEach(System.out::println);
-//		emplist.sort(Comparator.comparing(Employee::getSalary).thenComparing(Employee::getName));
-//		System.out.println(emplist);
 
 }
 }

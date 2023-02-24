@@ -2,7 +2,7 @@ package streamfilter;
 
 import java.util.stream.Collectors;
 
-public class PrintDuplicateStringWithoutSpace {
+public class OccurrenceOfEachCharacterInStringWithoutSpace {
 
 	public static void main(String[] args) {
 		String str1 = "Chandra GK";

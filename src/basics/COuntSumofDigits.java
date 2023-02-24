@@ -2,7 +2,7 @@ package basics;
 
 public class COuntSumofDigits {
 	public static void main(String[] args) {
-		int num = 123456;
+		int num = 123;
 		int sum =0;
 		while(num>0) {
 			sum = sum+num%10;

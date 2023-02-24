@@ -1,4 +1,4 @@
-package streamfilter;
+package basics;
 
 public class PrintDuplicateStringsArray {
 
