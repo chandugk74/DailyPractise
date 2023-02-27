@@ -1,4 +1,4 @@
-package ArrayEx;
+package objects;
 
 public class DateOfBirth {
 	int date;

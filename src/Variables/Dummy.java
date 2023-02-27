@@ -1,21 +1,21 @@
-package basics;
+package Variables;
 
-public class SaparateEvenOddNumbInSingleArray {
+public class Dummy {
 
 	public static void main(String[] args) {
-		int[] num1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-		EvenOdd(num1);
+		int[] num = { 1, 2, 3, 4, 5, 6 };
+		evenOdd(num);
 	}
 
-	public static void EvenOdd(int num1[]) {
+	private static void evenOdd(int[] num1) {
 		int[] result = new int[num1.length];
 		int index = 0;
 		for (int i = 0; i < num1.length; i++) {
-			if (num1[i] % 2 == 0) {
+			if (num1[i] % 2 == 0){
 				result[index] = num1[i];
-				index++;
-			}
+			index++;
 		}
+	}
 		for (int i = 0; i < num1.length; i++) {
 			if (num1[i] % 2 != 0) {
 				result[index] = num1[i];
@@ -26,5 +26,5 @@ public class SaparateEvenOddNumbInSingleArray {
 			System.out.print(result[i] + ", ");
 		}
 	}
-
+		
 }
