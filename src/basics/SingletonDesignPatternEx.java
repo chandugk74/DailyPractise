@@ -1,7 +1,7 @@
 package basics;
 
 public class SingletonDesignPatternEx {
-//	create private static variable,			object
+//	create private static variable,	object
 	private static SingletonDesignPatternEx singleton_instance = null;
 //	private constructor
 	private SingletonDesignPatternEx() {

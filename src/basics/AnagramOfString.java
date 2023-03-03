@@ -15,7 +15,6 @@ public class AnagramOfString {
 //	    convert the above string to char array
 		char[] a1 = s1.toCharArray();
 		char[] a2 = s2.toCharArray();
-		
 //	    for case sensitive
 //		char[] a1 = s1.toLowerCase().toCharArray();
 //		char[] a2 = s2.toLowerCase().toCharArray();

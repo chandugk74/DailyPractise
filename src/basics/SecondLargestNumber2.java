@@ -14,7 +14,5 @@ public class SecondLargestNumber2 {
 			}
 		}
 		System.out.println(scndmax);
-
 	}
-
 }

@@ -8,7 +8,8 @@ import java.util.stream.Collectors;
 public class SumOfSquareOfOddNumbers {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> al = new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
+		List<Integer> al = Arrays.asList(1,2,3,4,5,6);
+//		ArrayList<Integer> al = new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
 //		List<Integer> result = new ArrayList<Integer>();
 		//sum of square of odd numbers
 		int result=al.stream().filter(n->n%2!=0).map(n->n*n).reduce(0, Integer::sum);

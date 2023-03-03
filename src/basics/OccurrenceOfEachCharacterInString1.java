@@ -2,7 +2,7 @@ package basics;
 
 public class OccurrenceOfEachCharacterInString1 {
 	public static void main(String args[]) {
-		String str = "chandrashekara";
+		String str = "chandrashekara g k";
 
 		int i, counter[] = new int[256];
 
