@@ -1,36 +1,26 @@
 package basics;
 
-import java.util.HashMap;
-
 public class OccurenceOfMaxCharacters {
 	public static void main(String[] args) {
-		String str = "abcaa";
-		System.out.println("Max occurring character is " + getMaxOccuringChar(str));
-	}
-
-	static final int ASCII_SIZE = 256;
-	static char getMaxOccuringChar(String str) {
-		// Create array to keep the count of individual
-		// characters and initialize the array as 0
-		int count[] = new int[ASCII_SIZE];
-
-		// Construct character count array from the input
-		// string.
-		int len = str.length();
-		for (int i = 0; i < len; i++)
-			count[str.charAt(i)]++;
-
-		int max = -1; // Initialize max count
-		char result = ' '; // Initialize result
-
-		// Traversing through the string and maintaining
-		// the count of each character
-		for (int i = 0; i < len; i++) {
-			if (max < count[str.charAt(i)]) {
-				max = count[str.charAt(i)];
-				result = str.charAt(i);
+		String str = "chandra is learing";
+		char string[] = str.toCharArray();
+		int[] frequency = new int[str.length()];
+		for (int i = 0; i < str.length(); i++) {
+			for (int j = 0; j < str.length(); j++) {
+				if (string[i] == string[j] && string[i] != ' ') {
+					frequency[i]++;
+				}
 			}
 		}
-		return result;
+		int max = 0;
+		char maxChar = 0;
+
+		for (int i = 0; i < frequency.length; i++) {
+			if (max < frequency[i]) {
+				max = frequency[i];
+				maxChar = string[i];
+			}
+		}
+		System.out.println(maxChar + " " + max);
 	}
 }

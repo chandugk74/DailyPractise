@@ -3,7 +3,7 @@ package basics;
 public class OccurrenceOfAnySingleCharacterInString {
 
 	public static void main(String[] args) {
-		String str = "chandrashekara";
+		String str = "chandra";
 		char ch = 'a';
 		int count = 0;
 

@@ -14,10 +14,7 @@ public class SingletonDesignPatternEx {
 		}
 		return singleton_instance;
 	}
-// call any method
-	public void getContactDetails() {
-		System.out.println("Contact Details");
-	}
+
 	public static void main(String[] args) {
 		SingletonDesignPatternEx obj1 = SingletonDesignPatternEx.getInstance();
 		System.out.println(obj1);

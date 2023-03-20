@@ -42,7 +42,7 @@ public class Employeee {
 		List<Employeee> emplist = new ArrayList<Employeee>();
 		emplist.add(new Employeee(5000, "abc" ));
 		emplist.add(new Employeee(6000, "dbc"));
-		emplist.add(new Employeee(3000, "gbc"));
+		emplist.add(new Employeee(9000, "gbc"));
 
 		Optional<Employeee> emp = emplist.stream().sorted(Comparator.comparingDouble(Employeee::getSalary)
 				                 .reversed()).skip(1).findFirst();

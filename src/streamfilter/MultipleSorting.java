@@ -39,9 +39,9 @@ public class MultipleSorting {
 	}
 	public static void main(String[] args) {
 		List<MultipleSorting> emp = new ArrayList<MultipleSorting>();
-		emp.add(new MultipleSorting("abc",  25000));
-		emp.add(new MultipleSorting("abc", 55000));
-		emp.add(new MultipleSorting("jkl",  25000));
+		emp.add(new MultipleSorting("aaa",  25000));
+		emp.add(new MultipleSorting("abc", 25000));
+		emp.add(new MultipleSorting("def",  25000));
 		emp.add(new MultipleSorting("ghi",  35000));
 		
 		emp.stream().sorted(Comparator.comparing(MultipleSorting::getSalary)

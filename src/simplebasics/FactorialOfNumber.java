@@ -2,12 +2,12 @@ package simplebasics;
 
 public class FactorialOfNumber {
 	public static void main(String[] args) {
-		int num =5;
-		int fact = 1;
-		for(int i=1;i<=num;i++) {
-			fact = fact*i;
+		int count =1;
+		while(count<=15) {
+			System.out.println(count%2==0?"***":"+++");
+			count++;
 		}
-		System.out.println(fact);
+	
 	}
 
 }

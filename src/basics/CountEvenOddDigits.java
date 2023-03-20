@@ -3,7 +3,7 @@ package basics;
 public class CountEvenOddDigits {
 
 	public static void main(String[] args) {
-		int num = 12523584;
+		int num = 123456;
 		System.out.println("The given integer = "+ num);
 		int even_count = 0;
 		int odd_count = 0;
