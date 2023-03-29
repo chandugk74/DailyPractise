@@ -13,7 +13,7 @@ public class ThreeIncreasingAdjacentNumbers {
 	public static boolean tripleUp(int[] nums) {
 		for (int i = 0; i < nums.length - 2; i++) {
 			if (nums[i + 1] == nums[i] + 1 && nums[i + 2] == nums[i] + 2) {
-//				       1			1				2				2
+//				       2			1	+1			3			1    + 2
 				return true;
 			}
 		}

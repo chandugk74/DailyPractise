@@ -2,8 +2,7 @@ package basics;
 
 public class ReverseEachWord {
 	public static void main(String[] args) {
-		String str = "My name is ";
-		System.out.println("The original String is :" + str);
+		String str = "My name is jitendra";
 		String strWords[] = str.split(" ");
 		String rev = "";
 		for (String st : strWords) {

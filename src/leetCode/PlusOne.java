@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class PlusOne {
 	public static void main(String[] args) {
-		int[] array = {1,2,3};
-		int[] digits=plusOne(array);
+		int[] array = { 1, 2, 3 };
+		int[] digits = plusOne(array);
 		System.out.println(Arrays.toString(digits));
 	}
 
@@ -21,5 +21,4 @@ public class PlusOne {
 		digits[0] = 1;
 		return digits;
 	}
-
 }

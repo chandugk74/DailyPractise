@@ -1,6 +1,14 @@
 package basics;
 
 public class DeleteDuplicateElementsIntArry {
+	public static void main(String[] args) {
+		int a[] = { 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 6 };
+		int n = a.length;
+		int j = 0;
+		j = removeDuplicates(a);
+		for (int i = 0; i < j; i++)
+			System.out.print(a[i] + " ");
+	}
 	public static int removeDuplicates(int[] nums) {
         if(nums.length == 0)
             return 0;
@@ -13,12 +21,5 @@ public class DeleteDuplicateElementsIntArry {
         }
         return addIndex;
     }
-	public static void main(String[] args) {
-		int a[] = { 1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 6 };
-		int n = a.length;
-		int j = 0;
-		j = removeDuplicates(a);
-		for (int i = 0; i < j; i++)
-			System.out.print(a[i] + " ");
-	}
+	
 }

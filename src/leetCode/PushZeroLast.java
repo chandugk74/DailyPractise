@@ -10,9 +10,9 @@ public class PushZeroLast {
 	}
 
 	public static void moveZeroes(int[] nums) {
-		if (nums == null || nums.length == 0)
-			return;
-
+//		if (nums == null || nums.length == 0)
+//			return;
+//
 		int insertPos = 0;
 		for (int num : nums) {
 			if (num != 0)
