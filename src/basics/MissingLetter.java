@@ -2,16 +2,20 @@ package basics;
 
 public class MissingLetter {
 	public static void main(String[] args) {
-		String[] str_arra = { "p", "r", "s", "t" };
-		String result = test(str_arra);
-		System.out.printf(result);
-	}
-
-	public static String test(String[] str_arra) {
-		int c = str_arra[0].charAt(0) + 1;
-		for (int i = 1; i < str_arra.length; i++, c++)
-			if (str_arra[i].charAt(0) != c)
-				return String.valueOf((char) c);
-		return "";
+		String str = "The quick brown fox jumps over the lazy";
+		char s[] = str.toCharArray();
+		int c[] = new int[26];
+		for (int i = 0; i < s.length; i++) {
+			if (s[i] != ' ') {
+				c[s[i] - 'a']++;
+			}
+		}
+		String s2 = "";
+		for (int i = 0; i < 26; i++) {
+			if (c[i] == 0) {
+				s2 = s2 + (char) (i + 'a');
+			}
+		}
+		System.out.println(s2);
 	}
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MergeTwoStringArrays {
+public class MergeTwoStringArraysEx {
 	public static void main(String[] args) {
 		String a[] = { "A", "E", "I" };
 	    String b[] = { "O", "U" };
