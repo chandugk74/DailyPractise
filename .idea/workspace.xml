@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0ed3c8b-4947-4c0c-8313-3fc1e7e18ad6" name="Changes" comment="" />
+    <list default="true" id="f0ed3c8b-4947-4c0c-8313-3fc1e7e18ad6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/ArraySize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/NumberOfObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/OccurrenceOfAnySingleCharacterInString1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/RemoveSpecialCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pyramidPattern/LeftTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/COuntSumofDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/COuntSumofDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MissingCharacterInSecondString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MissingCharacterInSecondString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/ReverseEachWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/PlusOne1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/PlusOne1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/HalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/simplebasics/Dummy1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/simplebasics/Dummy1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/singeltonEX/EagerInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/singeltonEX/EagerInitialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/COuntSumofDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/CountSumofDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/DeleteDuplicateElementsIntArry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/DeleteDuplicateElementsIntArry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MissingCharacterInSecondString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MissingCharacterInSecondString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/OccurrenceOfEachCharacterInString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/OccurrenceOfEachCharacterInString1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ReverseEachWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/Seggrate0And1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Seggrate0And1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/PlusOne1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/PlusOne1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/HalfPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simplebasics/Dummy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simplebasics/Dummy1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singeltonEX/EagerInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singeltonEX/EagerInitialization.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="25YB3giJ7QLga2tj9glxo7nIGlR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +62,116 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunManager" selected="Application.StringToInt">
+    <configuration name="Dummy1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simplebasics.Dummy1" />
+      <module name="DailyPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simplebasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OccurrenceOfEachCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.OccurrenceOfEachCharacterInString" />
+      <module name="DailyPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OccurrenceOfEachCharacterInString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.OccurrenceOfEachCharacterInString1" />
+      <module name="DailyPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStringList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.ReverseStringList" />
+      <module name="DailyPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.StringToInt" />
+      <module name="DailyPractise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[Local] Dummy1.findThirdNum" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" value="us-east-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="architecture" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="simplebasics.Dummy1::findThirdNum" />
+      <option name="image" value="false" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="pathMappings">
+        <list />
+      </option>
+      <option name="platform" />
+      <option name="runtime" value="java8.al2" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringToInt" />
+        <item itemvalue="Application.Dummy1" />
+        <item itemvalue="Application.OccurrenceOfEachCharacterInString1" />
+        <item itemvalue="Application.OccurrenceOfEachCharacterInString" />
+        <item itemvalue="Application.ReverseStringList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -27,5 +183,17 @@
       <updated>1645693946033</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

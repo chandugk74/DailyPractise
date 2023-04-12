@@ -6,7 +6,7 @@ public class OccurrenceOfEachCharacterInString1 {
 		int counter[] = new int[256];
 		int length = str.length();
 		for (int i = 0; i < length; i++) {
-			counter[(int) str.charAt(i)]++;
+			counter[str.charAt(i)]++;
 		}
 
 		for (int i = 0; i < 256; i++) {

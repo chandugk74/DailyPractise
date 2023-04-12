@@ -18,7 +18,8 @@ public class TwoSum {
 		for (int i = 0; i < n; i++) {
 			int compliment = target - nums[i];
 			if (map.containsKey(compliment)) {
-				return new int[] { map.get(compliment), i };
+				return new int[] {
+						map.get(compliment), i };
 			}
 			map.put(nums[i], i);
 		}
