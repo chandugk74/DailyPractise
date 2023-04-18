@@ -6,13 +6,14 @@ import java.util.List;
 
 public class Dummy1 {
 	public static void main(String[] args) {
-		String str = "chandra G K";
-		String[] st = str.split(" +");
-		StringBuilder sb = new StringBuilder();
-		for (int i = st.length - 1; i >= 0; i--) {
-			sb.append(st[i]);
-//			sb.append(" ");
+		int row=5;
+		int num=1;
+		for(int i=1;i<=row;i++) {
+			for(int j=1;j<=i;j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+
 		}
-		System.out.println(sb.toString());
 	}
 }

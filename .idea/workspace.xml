@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ed3c8b-4947-4c0c-8313-3fc1e7e18ad6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/ArraySize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/NumberOfObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/OccurrenceOfAnySingleCharacterInString1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/RemoveSpecialCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pyramidPattern/LeftTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/basics/COuntSumofDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/COuntSumofDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/basics/MissingCharacterInSecondString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MissingCharacterInSecondString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/basics/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/ReverseEachWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetCode/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/LongestCommonPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetCode/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/PlusOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetCode/PlusOne1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/PlusOne1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/HalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/LeftTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pyramidPattern/LeftTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/RightTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pyramidPattern/RightTriangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/simplebasics/Dummy1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/simplebasics/Dummy1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/singeltonEX/EagerInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/singeltonEX/EagerInitialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/COuntSumofDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/CountSumofDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/DeleteDuplicateElementsIntArry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/DeleteDuplicateElementsIntArry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/MissingCharacterInSecondString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MissingCharacterInSecondString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/OccurrenceOfEachCharacterInString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/OccurrenceOfEachCharacterInString1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ReverseEachWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/Seggrate0And1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Seggrate0And1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/PlusOne1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/PlusOne1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/HalfPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/LeftTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/LeftTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/RightTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simplebasics/Dummy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simplebasics/Dummy1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singeltonEX/EagerInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singeltonEX/EagerInitialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
