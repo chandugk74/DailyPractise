@@ -1,20 +1,22 @@
 package basics;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class MissingNumberArray {
-
 	public static void main(String[] args) {
-		int a[] = { 1, 2, 4, 5, 6 };
-		int sum1 = 0;
-		int sum2 = 0;
-		for (int i = 0; i < a.length; i++) {
-			sum1 = sum1 + a[i];
+		int[] arr = { 4, 2, 7, 1, 9, 6 };
+		Set<Integer> numSet = new HashSet<>();
+		for (int num : arr) {
+			numSet.add(num);
 		}
-		System.out.println("sum of the elements of the array:" + sum1);
-		for (int i = 1; i < 7; i++) {
-			sum2 = sum2 + i;
+// Define the range of numbers (you can adjust this based on your problem).
+		int startRange = 1; // Starting number
+		int endRange = 9; // Ending number
+		for (int i = startRange; i <= endRange; i++) {
+			if (!numSet.contains(i)) {
+				System.out.print(i + " ");
+			}
 		}
-		System.out.println("sum of range of the elements of the array:" + sum2);
-		System.out.println("Missing elemeny:" + (sum2 - sum1));
 	}
-
 }

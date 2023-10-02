@@ -1,42 +1,25 @@
 package dsa;
 
-import java.util.Arrays;
-
 public class BinarySearchEx {
-
-	public static void main(String[] args) {
-		int[] array = new int[100];
-		int target = 35;
-		for (int i = 0; i < array.length; i++) {
-			array[i] = i;
-		}
-//		int index = Arrays.binarySearch(array, target);
-		int index = binarySearch(array, target);
-
-		if (index == -1) {
-			System.out.println("target not found");
-		} else {
-			System.out.println("index is: " + index);
-		}
-	}
-
-	private static int binarySearch(int[] array, int target) {
-		int low = 0;
-		int high = array.length - 1;
-		while (low <= high) {
-			int middle = low + (high - low) / 2;
-			int value = array[middle];
-			System.out.println(value);
-
-			if (value < target)
-				low = middle + 1;
-			else if (value > target)
-				high = middle - 1;
-			else
-				return middle;
-		}
-
-		return -1;
-	}
-
+	   public static void main(String[] args) {
+        int[] arr = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+        int target = 10;
+        int first=0;
+        int last=arr.length-1;
+        int mid = (first + last)/2;  
+        while( first <= last ){  
+           if ( arr[mid] < target ){  
+             first = mid + 1;     
+           }else if ( arr[mid] == target ){  
+ System.out.println("Element is found at index: " + mid);  
+             break;  
+           }else{  
+              last = mid - 1;  
+           }  
+           mid = (first + last)/2;  
+        }  
+        if ( first > last ){  
+           System.out.println("Element is not found!");  
+        }  
+    }
 }

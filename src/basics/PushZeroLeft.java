@@ -1,18 +1,19 @@
 package basics;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 
 public class PushZeroLeft {
-
 	public static void main(String[] args) {
-		int[] arr = new int[] {99, 1, 10, 20, 0, 0, 88, 0 };
-		int count = arr.length - 1;
-		for (int i = 0; i < count; i++) {
-			arr[count] = arr[i];
+		int[] arr = { 3, 2, 1, 1, 0, 0, 0, 0 };
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != 0) {
+				list.addFirst(arr[i]);
+			} else {
+				list.addLast(arr[i]);
+			}
 		}
-		Arrays.sort(arr);
-		for (int i = 0; i < count; i++) {
-			System.out.print(arr[i] + " ");
-		}
+		System.out.println(list);
 	}
 }

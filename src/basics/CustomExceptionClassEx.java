@@ -4,7 +4,7 @@ public class CustomExceptionClassEx extends Exception { // 1. custom exception c
 	String message; // 2. Create one string variable to store the exception message
 
 	CustomExceptionClassEx(String str) { // 3. pass the string argument to the constructor
-		message = str;
+		this.message = str;
 	}
 
 	public String toString() { // 4. toString() method is used to print out the exception message.

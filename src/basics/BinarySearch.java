@@ -19,7 +19,7 @@ public class BinarySearch {
 
 	public static void main(String args[]) {
 		int arr[] = { 10, 20, 30, 40, 50 };
-		int key = 30;
+		int key = 40;
 		int last = arr.length - 1;
 		int result = binarySearch(arr, 0, last, key);
 		if (result == -1)

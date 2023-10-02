@@ -1,22 +1,18 @@
 package basics;
 
 public class OccuringOnlyMaximumCharacter {
-	static final int ASCII_SIZE = 256;
-
 	public static void main(String[] args) {
-		String str = "chandra";
-		int count[] = new int[ASCII_SIZE];
-		int len = str.length();
-		for (int i = 0; i < len; i++)
-			count[str.charAt(i)]++;
-		int max = 0;       // Initialize max count
+		String str = "cbbbbbbbbbbbraaaa";
+		int max = 0; // Initialize max count
 		char result = ' '; // Initialize result
-		for (int i = 0; i < len; i++) {
+		int count[] = new int[256];
+		for (int i = 0; i < str.length(); i++) {
+			count[str.charAt(i)]++;
 			if (max < count[str.charAt(i)]) {
 				max = count[str.charAt(i)];
 				result = str.charAt(i);
 			}
 		}
-		System.out.println(result);
+		System.out.println(result + " " + max);
 	}
 }

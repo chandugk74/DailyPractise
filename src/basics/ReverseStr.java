@@ -1,9 +1,8 @@
 package basics;
 
-
 public class ReverseStr {
 	public static void main(String[] args) {
-		String str = "Nalina";
+		String str = "chandra is employee";
 		String rev = "";
 		char a[] = str.toCharArray();
 		for (int i = str.length() - 1; i >= 0; i--) {

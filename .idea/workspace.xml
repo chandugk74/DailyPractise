@@ -2,13 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ed3c8b-4947-4c0c-8313-3fc1e7e18ad6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/LeftTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pyramidPattern/LeftTriangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/RightTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pyramidPattern/RightTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LambdaExpression/WithoutLambdaExpression$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LambdaExpression/WithoutLambdaExpression$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LambdaExpression/WithoutLambdaExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LambdaExpression/WithoutLambdaExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/AverageOfIntArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/AverageOfIntArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/ClosestToTargetNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/ClosestToTargetNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/ClosestToTargetNumber1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/ClosestToTargetNumber1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MergeTwoStringArraysEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MergeTwoStringArraysEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MissingAllCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MissingAllCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MissingCharacterInSecondString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MissingCharacterInSecondString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MissingLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/MissingNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/MissingNumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/NumbersSumInString1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/NumbersSumInString1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/OccurrenceOfEachCharacterInString1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/OccurrenceOfEachCharacterInString1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/PushZeroLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/PushZeroLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/ReverseEachWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/ReverseStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/ReverseStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/SaparateEvenOddNumbInSingleArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/SaparateEvenOddNumbInSingleArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/SplitArray1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/SplitArray1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/basics/TablesTwotoTen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/basics/TablesTwotoTen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/AddTwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/AddTwoStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/ReverseWordsString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/ReverseWordsString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/TwoSum1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/TwoSum1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetCode/TwoSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetCode/TwoSum2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multiThreading/NewThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multiThreading/NewThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multiThreading/PrintEvenOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multiThreading/PrintEvenOdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multiThreading1/EvenOddNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multiThreading1/EvenOddNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pyramidPattern/PascalsTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pyramidPattern/PascalsTriangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/simplebasics/Dummy1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/simplebasics/Dummy1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/LeftTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/LeftTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamfilter/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/streamfilter/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamfilter/Employeee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamfilter/EvenOddList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/streamfilter/EvenOddList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamfilter/OccurenceAndCountOfOnlyDuplicateCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/streamfilter/OccurenceAndCountOfOnlyDuplicateCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamfilter/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/streamfilter/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/streamfilter/ReverseStringArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LambdaExpression/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpression/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LambdaExpression/WithoutLambdaExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LambdaExpression/WithoutLambdaExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/AverageOfIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/AverageOfIntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/ClosestToTargetNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ClosestToTargetNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/ClosestToTargetNumber1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ClosestToTargetNumber1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MergeTwoStringArraysEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MergeTwoStringArraysEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MissingAllCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MissingAllCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MissingCharacterInSecondString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MissingCharacterInSecondString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MissingLetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/MissingNumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/MissingNumberArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/NumbersSumInString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/NumbersSumInString1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/OccurrenceOfEachCharacterInString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/OccurrenceOfEachCharacterInString1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/PrintDuplicateStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/PrintDuplicateStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/PushZeroLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/PushZeroLeft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/ReverseEachWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ReverseEachWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/ReverseStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ReverseStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/SaparateEvenOddNumbInSingleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/SaparateEvenOddNumbInSingleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/SplitArray1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/SplitArray1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/TablesTwotoTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/TablesTwotoTen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/AddTwoStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/AddTwoStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/ReverseWordsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/ReverseWordsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/TwoSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/TwoSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/TwoSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCode/TwoSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiThreading/PrintEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiThreading/PrintEvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiThreading1/EvenOddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiThreading1/EvenOddNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pyramidPattern/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pyramidPattern/PascalsTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simplebasics/Dummy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simplebasics/Dummy1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamfilter/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamfilter/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamfilter/Employeee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamfilter/EvenOddList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamfilter/EvenOddList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamfilter/OccurenceAndCountOfOnlyDuplicateCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamfilter/OccurenceAndCountOfOnlyDuplicateCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamfilter/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamfilter/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamfilter/ReverseStringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamfilter/ReverseStringList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

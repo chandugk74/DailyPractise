@@ -1,21 +1,32 @@
 package basics;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+
 public class MissingAllCharacter {
 	public static void main(String[] args) {
-		String str = "The quick brown fox jumps over the lazy";
-		char s[] = str.toCharArray();
-		int c[] = new int[26];
-		for (int i = 0; i < s.length; i++) {
-			if (s[i] != ' ') {
-				c[s[i] - 'a']++;
-			}
-		}
-		String s2 = "";
-		for (int i = 0; i < 26; i++) {
-			if (c[i] == 0) {
-				s2 = s2 + (char) (i + 'a');
-			}
-		}
-		System.out.println(s2);
+		  
+        String userInput = "chandra";
+        userInput= userInput.replaceAll(" ", "");
+               
+        // Creating a String array containing each character of user input
+        String [] inputStringArray = userInput.split("");
+                 
+        // Creating a String array containing alphabets
+        String alphabets[]= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+                 
+        // Creating HashSet to find intersections
+        HashSet<String> s1 = new HashSet<String>(Arrays.asList(inputStringArray));
+        HashSet<String> s2 = new HashSet<String>(Arrays.asList(alphabets));
+         
+        System.out.println("User Input in set :"+s1);
+        System.out.println("Alphabets :"+s2);
+         
+        // Intersection of above sets
+        s2.removeAll(s1);
+         
+       // Missing alphabets
+        System.out.println("Missing alphabets :"+ s2);
 	}
 }

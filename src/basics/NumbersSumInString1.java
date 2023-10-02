@@ -11,6 +11,5 @@ public class NumbersSumInString1 {
 			}
 		}
 		System.out.println("Sum of all digits " + sum);
-		 
 	}
 }

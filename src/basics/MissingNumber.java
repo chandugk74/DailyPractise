@@ -1,19 +1,23 @@
 package basics;
 
+import java.util.Arrays;
+import java.util.HashSet;
+
 public class MissingNumber {
 	public static void main(String[] args) {
-		int[] arr1 = { 1, 2, 3, 5 };
-		System.out.println(missingNumber(arr1));
-	}
-	public static int missingNumber(int[] arr1) {
-		int n = arr1.length + 1;
-		int sum = n * (n + 1) / 2;
-		int restSum = 0;
-		for (int i = 0; i < arr1.length; i++) {
-			restSum += arr1[i];
-		}
-		int missingNumber = sum - restSum;
-		return missingNumber;
-//		System.out.println(missingNumber);
-	}
-}
+		int[] arr = { 4, 2, 7, 9, 1, 5 };
+		HashSet<Integer> set = new HashSet<>();
+		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
+		for (int num : arr) {
+			set.add(num);
+			if (num < min) {
+				min = num;
+			}
+			if (num > max) {
+				max = num;
+			}}
+		for (int i = min; i <= max; i++) {
+			if (!set.contains(i)) {
+				System.out.print(i + " ");
+}}}}

@@ -1,21 +1,31 @@
 package singeltonEX;
-
 //advantage: objects created only when required
-// disadvantage : can't handle multiple threads
+//disadvantage : can't handle multiple threads
 public class LazyInitialization {
-// private static variable 
-	private static LazyInitialization theOnlyInstance = null;
+// Private static variable to hold the 
+//	single instance of the class
+    private static LazyInitialization instance;
+// Private constructor to prevent 
+//    instantiation from other classes
+    private LazyInitialization() {
+    }
+    // Public static method to get the instance of the class
+    public static LazyInitialization getInstance() {
+        if (instance == null) {
+            instance = new LazyInitialization();
+        }
+        return instance;
+    }
+    // Example method of the Singleton class
+    public void showMessage() {
+        System.out.println("Hello from Singleton!");
+    }
 
-//	private constructor
-	private LazyInitialization() {
+    public static void main(String[] args) {
+        // Get the instance of the Singleton class
+LazyInitialization singleton = LazyInitialization.getInstance();
 
-	}
-
-	public static LazyInitialization getInstance() {
-		if (theOnlyInstance == null) {
-			theOnlyInstance = new LazyInitialization();
-		}
-		return theOnlyInstance;
-	}
-
+        // Call a method of the Singleton
+        singleton.showMessage();
+    }
 }

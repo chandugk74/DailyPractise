@@ -3,6 +3,7 @@ package multiThreading1;
 public class EvenOddNumber {
 	public static int n = 10;
 	int count = 1;
+
 	public void generateEvenNumbers() {
 		synchronized (this) {
 			while (count < n) {
@@ -19,6 +20,7 @@ public class EvenOddNumber {
 			}
 		}
 	}
+
 	public void generateOddNumbers() {
 		synchronized (this) {
 			while (count < n) {
@@ -35,6 +37,7 @@ public class EvenOddNumber {
 			}
 		}
 	}
+
 	public static void main(String[] args) {
 		EvenOddNumber obj = new EvenOddNumber();
 		EvenThread evenThread = new EvenThread(obj);

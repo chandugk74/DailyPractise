@@ -7,19 +7,20 @@ import java.util.stream.Stream;
 public class SortandReverseSortArray {
 
 	public static void main(String[] args) {
-		// Unsorted string array
-		String[] strArray = { "Alex", "Charles", "Dean", "Amanda", "Brian" };
+// Unsorted string array
+String[] strArray = { "Alex", "Charles", "Dean", "Amanda", "Brian" };
 
-		// Sorting the strings
-		strArray = Stream.of(strArray).sorted().toArray(String[]::new);
+// Sorting the strings
+strArray = Stream.of(strArray).sorted().toArray(String[]::new);
 
-		// Sorted array
-		System.out.println("Sorted : " + Arrays.toString(strArray));
+// Sorted array
+System.out.println("Sorted : " + Arrays.toString(strArray));
 
-		// Reverse sorting example
-		strArray = Stream.of(strArray).sorted(Comparator.reverseOrder()).toArray(String[]::new);
+// Reverse sorting example
+strArray = Stream.of(strArray).sorted(Comparator.reverseOrder())
+		  .toArray(String[]::new);
 
-		// Reverse Sorted array
-		System.out.println("Reverse Sorted : " + Arrays.toString(strArray));
+// Reverse Sorted array
+System.out.println("Reverse Sorted : " + Arrays.toString(strArray));
 	}
 }

@@ -39,10 +39,10 @@ public class MultipleSorting {
 	}
 	public static void main(String[] args) {
 		List<MultipleSorting> emp = new ArrayList<MultipleSorting>();
+		emp.add(new MultipleSorting("aaa",  65000));
+		emp.add(new MultipleSorting("abc", 45000));
 		emp.add(new MultipleSorting("aaa",  25000));
-		emp.add(new MultipleSorting("abc", 25000));
-		emp.add(new MultipleSorting("def",  25000));
-		emp.add(new MultipleSorting("ghi",  35000));
+		emp.add(new MultipleSorting("ghi",  25000));
 		
 		emp.stream().sorted(Comparator.comparing(MultipleSorting::getSalary)
 				.thenComparing(MultipleSorting::getName)).forEach(System.out::println);

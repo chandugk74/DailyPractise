@@ -1,19 +1,28 @@
 package singeltonEX;
 
-//https://www.youtube.com/watch?v=6JehKH-zF28&ab_channel=TechStack9
 public class EagerInitialization {
-    //	create private static variable
-    private static EagerInitialization theOnlyInstance = new EagerInitialization();
+	// Private static instance created at the time of class loading
+    private static final EagerInitialization instance = new EagerInitialization();
 
-    //	create private constructor
+    // Private constructor to prevent instantiation from other classes
     private EagerInitialization() {
-
     }
 
-    //	 return the object of this class
+    // Public static method to get the instance of the class
     public static EagerInitialization getInstance() {
-
-		return theOnlyInstance;
+        return instance;
     }
 
+    // Example method of the Singleton class
+    public void showMessage() {
+        System.out.println("Hello from Eager Singleton!");
+    }
+
+    public static void main(String[] args) {
+        // Get the instance of the Singleton class
+    	EagerInitialization singleton = EagerInitialization.getInstance();
+
+        // Call a method of the Singleton
+        singleton.showMessage();
+    }
 }

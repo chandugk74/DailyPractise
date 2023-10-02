@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TwoSum1 {
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 3 };
-		int target = 3;
+		int target = 5;
 		int result[] = twoSum(array, target);
 		System.out.println(Arrays.toString(result));
 	}
