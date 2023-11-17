@@ -46,7 +46,8 @@ public class EmployeeMap {
 		map.put("a", 9000);
 //Sort by salary, if salary same, then sort by names		
 map.entrySet().stream().sorted(Map.Entry.<String, Integer>comparingByValue()
-.thenComparing(Map.Entry.<String,Integer>comparingByKey())).forEach(System.out::println);
+.thenComparing(Map.Entry.<String,Integer>comparingByKey()))
+.forEach(System.out::println);
 //	Sort by employee name
 map.entrySet().stream().sorted(Map.Entry.<String, Integer>comparingByKey())
 .forEach(System.out::println);
@@ -58,12 +59,18 @@ Map.Entry<String, Integer> finalResult = map.entrySet().stream()
 .sorted(Comparator.comparing(entry -> -entry.getValue())).toList().get(1);
 System.out.println("second high salary is : " + finalResult);
 //if the map contain multiple second high salaries
-Map<Integer, List<String>> interimResult = map.entrySet().stream().collect(Collectors.groupingBy(
-entry -> entry.getValue(), Collectors.mapping(entry -> entry.getKey(), Collectors.toList())));
+Map<Integer, List<String>> interimResult = map.entrySet().stream()
+.collect(Collectors.groupingBy(entry -> entry.getValue(), 
+Collectors.mapping(entry -> entry.getKey(), Collectors.toList())));
 System.out.println("second high salary is : " + interimResult);
-// find employees whose salaries are above 10000 and increment their salary by 10%
+//salaries are above 10000 and increment their salary by 10%
 map.entrySet().stream().filter(emp -> emp.getValue() > 10000)
 .forEach(emp -> emp.setValue(emp.getValue() * 110 / 100));
-System.out.println(map);
+System.out.println("incremented salaries are "+map);
+//salaries range between 1000 & 2000
+Map<String, Integer> employeesInSalaryRange = map.entrySet().stream()
+.filter(emp -> emp.getValue() >= 20000 && emp.getValue() <= 50000)
+.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+System.out.println(employeesInSalaryRange);
 	}
 }

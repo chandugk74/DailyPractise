@@ -56,32 +56,39 @@ public class Employee {
 		empList.add(new Employee("jkl", "Admin", 50000));
 		empList.add(new Employee("mno", "Admin", 60000));
 		empList.add(new Employee("b", "Accounts", 8000));
-
 //Sort by salary, if salary same, then sort by names		
-		empList.stream().sorted(Comparator.comparing(Employee::getSalary)
-				.thenComparing(Employee::getName)).forEach(System.out::println);
+empList.stream().sorted(Comparator.comparing(Employee::getSalary)
+.thenComparing(Employee::getName)).forEach(System.out::println);
 // sorting on Aescending order by name
-	Comparator<Employee> NameCommparator = Comparator.comparing(Employee::getName);
-	List<Employee> listSorted = empList.stream().sorted(NameCommparator).collect(Collectors.toList());
-	System.out.println("Aescending order by name:" + listSorted);
-	
-//sorting on Aescending order by salary
-	Comparator<Employee> SalaryCommparator = Comparator.comparing(Employee::getSalary);
-	listSorted = empList.stream().sorted(SalaryCommparator.reversed()).collect(Collectors.toList());
-	System.out.println("Descending order by salary:" + listSorted);
+Comparator<Employee> NameCommparator = 
+Comparator.comparing(Employee::getName);
+List<Employee> listSorted = empList.stream()
+.sorted(NameCommparator).collect(Collectors.toList());
+System.out.println("Aescending order by name:" + listSorted);
+//sorting on Descending order by salary
+Comparator<Employee> SalaryCommparator =
+Comparator.comparing(Employee::getSalary);
+listSorted = empList.stream().sorted(SalaryCommparator
+		.reversed()).collect(Collectors.toList());
+System.out.println("Descending order by salary:" + listSorted);
 //To fetch the second Highest Salary
-	Optional<Employee> emp = empList.stream().sorted(Comparator.comparingDouble(Employee::getSalary)
-							.reversed()).skip(1).findFirst();
-	System.out.println("Second highest salary is : "+emp.get());
-// find employees whose salaries are above 10000 and increment their salary by 10%
-	empList.stream().filter(employee -> employee.getSalary() > 10000)
-				.forEach(employee -> employee.setSalary(employee.getSalary() * 110 / 100));
-		System.out.println(" The salary after 10% hike is : " + empList);
+Optional<Employee> emp = empList.stream().sorted(Comparator.
+comparingDouble(Employee::getSalary).reversed()).skip(1).findFirst();
+System.out.println("Second highest salary is : "+emp.get());
+// Whose salaries are above 10000 and increment their salary by 10%
+empList.stream().filter(employee -> employee.getSalary() > 10000)
+.forEach(employee ->employee.setSalary(employee.getSalary()*110/100));
+System.out.println(" The salary after 10% hike is : " + empList);
 // Salary between 20000 and 50000
-List<Employee> filteredEmployees = empList.stream().filter(employee -> employee.getSalary() > 20000 
-									&& employee.getSalary() < 50000).collect(Collectors.toList());
+List<Employee> filteredEmployees = empList.stream().filter(employee
+-> employee.getSalary() > 20000 && employee.getSalary() < 50000)
+.collect(Collectors.toList());
 System.out.println(filteredEmployees);
-//filteredEmployees.forEach(employee -> System.out.println(employee.getName() + " - " + employee.getSalary()));
-    
+//lowest salaries
+Integer lowestSalary = empList.stream().min(Comparator.comparing
+(Employee::getSalary)).map(Employee::getSalary).get();
+List<Employee> employeesWithLowestSalary = empList.stream()
+.filter(e->e.getSalary()==lowestSalary).collect(Collectors.toList());
+System.out.println("lowest salaries :"+employeesWithLowestSalary);
 	}
 }

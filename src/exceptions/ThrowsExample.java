@@ -1,20 +1,23 @@
 package exceptions;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
 public class ThrowsExample {
 
-	public static void main(String[] args) {
-		int x=0;
-		try {
-		 x = divide(6, 2);
-		}catch (ArithmeticException e) {
-			System.out.println("cannot devide by zero");
-		}
-		System.out.println(x);
+	 public static void findFile() throws IOException {
+		    // code that may produce IOException
+		    File newFile=new File("test.txt");
+		    FileInputStream stream=new FileInputStream(newFile);
+		  }
 
-	}
-
-	public static int divide(int a, int b) throws ArithmeticException {
-		return a / b;
-	}
+		  public static void main(String[] args) {
+		    try{
+		      findFile();
+		    } catch(IOException e){
+		      System.out.println(e);
+		    }
+		  }
 
 }

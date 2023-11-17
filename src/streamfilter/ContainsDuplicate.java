@@ -12,6 +12,7 @@ public class ContainsDuplicate {
 			containsDuplicate = true;
 		}
 		System.out.println(containsDuplicate);
+		
 //***********		
 		List<Integer> ll = Arrays.asList(1, 2, 3, 4,1);
 		boolean isdups=false;

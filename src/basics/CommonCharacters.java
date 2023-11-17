@@ -4,22 +4,18 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class CommonCharacters {
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		String first = "abcbcd";
 		String second = "cdefef";
-		String common = commonCharacters(first, second);
-		System.out.println(common);
+Set<Character> s1 = new TreeSet<>();
+Set<Character> s2 = new TreeSet<>();
+for (char c : first.toCharArray()) {
+			s1.add(c);
 	}
-	public static String commonCharacters(String a, String b) {
-		Set<Character> first = new TreeSet<>();
-		Set<Character> second = new TreeSet<>();
-		for (char c : a.toCharArray()) {
-			first.add(c);
-		}
-		for (char c : b.toCharArray()) {
-			second.add(c);
-		}
-		first.retainAll(second);
-		return first.toString();
+for (char c : second.toCharArray()) {
+			s2.add(c);
+	}
+s1.retainAll(s2);
+System.out.println(s1.toString());
 	}
 }

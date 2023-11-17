@@ -7,7 +7,6 @@ public class CountEvenOddDigits {
 		System.out.println("The given integer = "+ num);
 		int even_count = 0;
 		int odd_count = 0;
-
 		while (num > 0) {
 			int remainder = num % 10;
 			if (remainder % 2 == 0) {

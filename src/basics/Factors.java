@@ -1,13 +1,11 @@
 package basics;
 
 public class Factors {
-
-	public static void main(String[] args) {
-		int number = 20;
-		System.out.print("Factors of " + number + " are: ");
-		for (int i = 1; i <= number; i++) {
+public static void main(String[] args) {
+	int number = 20;
+for (int i = 1; i <= number; i++) {
 			if (number % i == 0) {
-				System.out.print(i + " ");
+		System.out.print(i + " ");
 			}
 		}
 	}

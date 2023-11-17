@@ -1,39 +1,26 @@
 package inheritence;
 
-//Java program to demonstrate the concept of upcasting
-
-//Animal Class
 class Animal {
-
 	String name;
 
-	// A method to print the nature of the class
 	void nature()
 	{
 		System.out.println("Animal");
 	}
 }
 
-//A Fish class which extends the animal class
 class Fish extends Animal {
-
 	String color;
 
-	// Overriding the method to print the nature of the class
 	@Override
 	void nature()
 	{
 		System.out.println("Aquatic Animal");
 	}
 }
-
-//Demo class to understand the concept of upcasting
 public class GFG {
-
-	// Driver code
 	public static void main(String[] args)
 	{
-		// Creating an object to represent Parent p = new Child();
 		Animal a = new Fish();
 //		Fish f1 = new Animal();
 

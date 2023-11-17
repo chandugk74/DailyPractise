@@ -11,11 +11,9 @@ import java.util.stream.IntStream;
 
 public class Dummy {
 	public static void main(String[] args) {
-		Integer[] num = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
-		int split=3;
-		for(int i=0;i<=num.length;i+=split) {
-			System.out.println(Arrays.toString(Arrays.copyOfRange(num, i, Math.min(num.length, i+=split))));
-		}
-
+		List<String> list = Arrays.asList("A", "B", "B", "C");
+		List<Integer> list1 = Arrays.asList(1,1,2,3,3,5,5,6);
+		Set<Integer> set= new HashSet<Integer>();
+		list1.stream().filter(n->!set.add(n)).forEach(System.out::println);
 	}
 }

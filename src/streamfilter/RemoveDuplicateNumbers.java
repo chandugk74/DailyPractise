@@ -10,9 +10,10 @@ public class RemoveDuplicateNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer> numbersList = new ArrayList<>(Arrays.asList(1, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8));
+ArrayList<Integer> numbersList =
+new ArrayList<>(Arrays.asList(1, 1, 2, 3, 3));
 //		List<Integer> numbersList = Arrays.asList(1, 1, 2, 3, 3, 4, 5, 6, 6, 7, 8);
-		Set<Integer> setWithoutDuplicates = numbersList.stream().collect(Collectors.toSet());
-		System.out.println(setWithoutDuplicates);
+Set<Integer> setWithoutDuplicates = numbersList.stream().collect(Collectors.toSet());
+System.out.println(setWithoutDuplicates);
 	}
 }

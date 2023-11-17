@@ -8,7 +8,6 @@ public class CountNumberofWordsinString {
 		String s="i am java";
 		String[] st = s.split(" ");
 		System.out.println(Arrays.stream(st).count());
-
 	}
 
 }

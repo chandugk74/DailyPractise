@@ -1,4 +1,4 @@
-package LambdaExpression;
+package lambdaExpression;
 
 public class WithoutLambdaExpression {
 	public static void main(String[] args) {

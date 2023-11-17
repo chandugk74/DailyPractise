@@ -16,7 +16,7 @@ public class QueueEx {
 
 	public static void main(String[] args) {
 //		Queue<String> queue1 = new Queue<String>();
-		//we cannot instansiate queue bcoz its interface. 
+//		we cannot instansiate queue bcoz its interface. 
 //		we can instantiate through linkedlist like below
 		Queue<String> queue = new LinkedList<String>();
 		System.out.println(queue.isEmpty());

@@ -2,6 +2,7 @@ package streamfilter;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class SumOfSquareOfOddNumbers1 {
 	public static void main(String[] args) {
@@ -9,12 +10,14 @@ public class SumOfSquareOfOddNumbers1 {
 //		for odd numbers
 System.out.println(Arrays.asList(arr).stream().filter(x->x%2!=0)
 		           .mapToInt(x->x*x).sum());
+System.out.println(Arrays.asList(arr).stream().filter(x->x%2!=0)
+        .map(x->x*x).collect(Collectors.toList()));
 //		for even numbers
 System.out.println(Arrays.asList(arr).stream().filter(x->x%2==0)
 		           .mapToInt(x->x*x).sum());
 //if in List
-		List<Integer> arr1 = Arrays.asList(1,2,3);
-		System.out.println(arr1.stream().filter(n->n%2!=0)
-				           .mapToInt(n->n*n).sum());
+List<Integer> arr1 = Arrays.asList(1,2,3);
+System.out.println(arr1.stream().filter(n->n%2!=0)
+		           .mapToInt(n->n*n).sum());
 	}
 }

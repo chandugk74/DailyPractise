@@ -1,4 +1,4 @@
-package LambdaExpression;
+package lambdaExpression;
 
 public class NoParameterLambda {
 	public static void main(String[] args) {
